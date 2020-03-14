@@ -1,0 +1,17 @@
+{
+    "name": "slownls/simple_auth_system",
+    "description": "Simple authentification system in php",
+    "type": "library",
+    "authors": [
+        {
+            "name": "SlownLS",
+            "email": "slownls.luca@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "SlownLS\\Auth\\": "src/"
+        }
+    }
+}
