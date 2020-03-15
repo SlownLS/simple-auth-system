@@ -16,7 +16,6 @@ User::GetLocalInfo(string $key) // Used to retrieve information from the user's 
 ## Login functions
 
 ~~~ PHP 
-
 User::IsLogged() // Whether the user is logged in.
 
 User::Logout() // Used to log out the user
