@@ -3,7 +3,7 @@ Simple authentication system is a pre-made authentication system to connect your
 
 ## General functions
 
-~~~ php
+~~~ PHP
 User::SetDatabase(PDO $db) // Used to define the instance of your database
 
 User::GetBy(string ...$args) // Used to retrieve a user's information
@@ -15,7 +15,7 @@ User::GetLocalInfo(string $key) // Used to retrieve information from the user's 
 
 ## Login functions
 
-~~~ php 
+~~~ PHP 
 
 User::IsLogged() // Whether the user is logged in.
 
@@ -28,7 +28,7 @@ User::Register(string $username, string $email, string $password, string $passwo
 
 ## Notification functions
 
-~~~ php
+~~~ PHP
 User::HasNotifications() // Whether the user has any notifications 
 
 User::GetNotifications() // Used to retrieve user notifications
